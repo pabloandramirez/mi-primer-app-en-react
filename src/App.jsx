@@ -1,40 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import React from 'react';
 
-class Imagen extends React.Component {
-  render (){
-    return(<img src={logo} className="App-logo" alt="logo" />);
-  }
-}
 
-function Parrafo (props) {
-  return (
-    <p> {props.contenido} </p>
-  )
-}
+//import Anchor from './componentes/Anchor';
+//import Parrafo from './componentes/Parrafo';
+//import Imagen from './componentes/Imagen';
+import ListaProductosPagina from './paginas/ListaProductosPagina';
 
-const Anchor = () => {
-  return(
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Learn React
-    </a>
-  )
-}
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Imagen />
-        <Parrafo contenido ='Edit src/App.js and save to reload' />
-        <Anchor />
-      </header>
+      <ListaProductosPagina />
     </div>
   );
 }
