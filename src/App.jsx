@@ -1,5 +1,9 @@
 import './App.css';
-
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 //import Anchor from './componentes/Anchor';
 //import Parrafo from './componentes/Parrafo';
@@ -10,9 +14,11 @@ import ListaProductosPagina from './paginas/ListaProductosPagina';
 
 function App() {
   return (
-    <div className="App">
-      <ListaProductosPagina />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='productos' element={< ListaProductosPagina/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

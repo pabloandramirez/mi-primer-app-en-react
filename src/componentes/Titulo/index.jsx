@@ -1,6 +1,10 @@
+import { Typography } from "@mui/material";
+
 function Titulo(){
     return (
-        <h1>Listado de Productos</h1>
+        <Typography variant="h4" gutterBottom>
+            Listado de Productos
+        </Typography>
     )
 }
 

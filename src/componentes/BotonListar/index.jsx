@@ -1,6 +1,10 @@
+import Button from '@mui/material/Button';
+
 function BotonListar(props){
     return(
-        <button onClick={props.onClick}> Listar </button>
+        <Button variant="outlined" size="large" onClick={props.onClick}>
+            Listar
+        </Button>
     )
 }
 

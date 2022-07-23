@@ -1,0 +1,6 @@
+.producto {
+    border: 1px #000000 solid;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
