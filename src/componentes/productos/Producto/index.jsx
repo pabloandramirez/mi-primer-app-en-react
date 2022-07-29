@@ -9,7 +9,7 @@ import './Producto.css'
 function Producto( { producto } ){
     const { name, price } = producto;
     return (
-            <Card sx={{ maxWidth: 200 }} className='producto'>
+            <Card sx={{ maxWidth: 150 }} className='producto'>
             <CardActionArea>
                 <CardMedia
                     component="img"

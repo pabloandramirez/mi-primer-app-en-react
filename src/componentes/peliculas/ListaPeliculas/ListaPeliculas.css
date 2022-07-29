@@ -1,0 +1,10 @@
+.lista-peliculas{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.lista-peliculas div{
+    margin: 5px;
+    width: 200px;
+}

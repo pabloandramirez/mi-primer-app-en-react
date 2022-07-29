@@ -1,6 +1,6 @@
-import BotonListar from "../componentes/BotonListar";
-import ListaProductos from "../componentes/ListaProductos";
-import Titulo from "../componentes/Titulo";
+import BotonListar from "../componentes/productos/BotonListar";
+import ListaProductos from "../componentes/productos/ListaProductos";
+import Titulo from "../componentes/general/Titulo";
 import React from "react";
 import { buscarProductos } from "../servicios/productos";
 import { useState } from "react";

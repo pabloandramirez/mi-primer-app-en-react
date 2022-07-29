@@ -9,6 +9,7 @@ import {
 //import Parrafo from './componentes/Parrafo';
 //import Imagen from './componentes/Imagen';
 import ListaProductosPagina from './paginas/ListaProductosPagina';
+import BuscarPeliculasPagina from './paginas/BuscarPeliculasPagina';
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='productos' element={< ListaProductosPagina/>}/>
+        <Route path='peliculas' element={< BuscarPeliculasPagina/>}/>
       </Routes>
     </BrowserRouter>
   );
